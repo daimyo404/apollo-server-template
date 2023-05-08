@@ -1,4 +1,4 @@
-const typeDefs = `
+const users = `
   type Users {
     description: String
     facebookId: String
@@ -23,4 +23,4 @@ const typeDefs = `
   }
 `;
 
-export default typeDefs;
+export default users;

@@ -5,8 +5,8 @@ import express from "express";
 import bodyParser from "body-parser";
 import http from "http";
 import { ApolloServerPluginDrainHttpServer } from "@apollo/server/plugin/drainHttpServer";
-import typeDefs from "./shemata/users";
-import resolvers from "./resolvers/users";
+import typeDefs from "./schemata";
+import resolvers from "./resolvers";
 import initialSetting from "./util/plugins/initialSetting";
 import {
   simpleEstimator,
